@@ -1,0 +1,18 @@
+{
+  "name": "lcn-cli",
+  "version": "0.0.1",
+  "bin": {
+    "i": "./lib/install.js",
+    "b": "./lib/build.js",
+    "s": "./lib/start.js",
+    "t": "./lib/test.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.45"
+  }
+}
