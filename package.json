@@ -1,6 +1,6 @@
 {
   "name": "lcn-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "i": "./lib/install.js",
     "b": "./lib/build.js",
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.45"
+  },
+  "dependencies": {
+    "@antfu/ni": "^0.17.2"
   }
 }
